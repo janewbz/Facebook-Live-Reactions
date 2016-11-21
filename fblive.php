@@ -47,7 +47,7 @@ while(true) {
    * Loop through the comments and extract the comments that contain the word share
    */
   $comments = array_filter($comments['data'], function($comment) {
-    if(strpos(strtolower($comment['message']), 'share') > -1) {
+    if(strpos(strtolower($comment['message']), 'salu2') > -1) {
       return true;
     }
   });
